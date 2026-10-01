@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="id">
+ <head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261001-05-b7952c1","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YACgEZulLoA,0","Arial Narrow":"YAGyDvJ_4Ts,0","Arial Rounded MT Bold":"YAFcfoaHu-s,0","Arial":"YAGyDvJ_4Ts,0","Avenir Next":"YAFcfmNq6UY,0","Baloo 2":"YADK30bC6HQ,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAFcfvtOAUY,1","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHQutsX00Q,0","Hanken Grotesk":"YAFcfhwp99E,0","Helvetica Neue":"YAFcf6CtJfI,0","Helvetica":"YAFcf6CtJfI,0","IBM Plex Mono":"YAFdJkmvhGI,0","Impact":"YAFcfnjI7Vk,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YADK3zbC6RM,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Pacifico":"YADLjORQ1u4,0","Phantom Sans":"YAFdJvgJ5TU,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAGvf3_u0_Q,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Source Serif 4":"YACgEfdj394,0","Space Grotesk":"YADZ-dYEmhg,0","Space Mono":"YADW1-vpsoc,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","UV Display":"YAEdVfSSpYo,0","UV Sans":"YAFdJvgJ5TU,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YAD1aFjegN8,0","ui-sans-serif":"YACkoD1yZN0,0"}}');</script><script src="/_sdk/6542d56fbfe7a3eb.telemetry_sdk.js" integrity="sha512-ECdM0nK7EkwDuOqho2qxgyRQXyBHk9hZqRKMBr+Xsu6zjeHlt+qkO2N2YRiHN7Kg4e1fEHDhjIp4bGJYVypv1g=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eksponensial Kelas 10</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #102a43;
+      --navy: #0b2545;
+      --blue: #176b87;
+      --aqua: #64ccc5;
+      --paper: #f7f4ed;
+      --sun: #ffd166;
+      --coral: #ef8354;
+    }
+
+    * { box-sizing: border-box; }
+    html { background: #f7f4ed; }
+    body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+      color: var(--ink);
+      font-family: "DM Sans", sans-serif;
+      overflow-x: hidden;
+    }
+
+    .app-shell {
+      width: 100%;
+      min-height: calc(100 * min(var(--vh, 1vh), 1vh));
+      background:
+        radial-gradient(circle at 10% 0%, rgba(100, 204, 197, .25), transparent 26rem),
+        radial-gradient(circle at 100% 100%, rgba(255, 209, 102, .22), transparent 30rem),
+        #f7f4ed;
+    }
+
+    .math-font { font-family: "Fraunces", serif; }
+    .grid-lines {
+      background-image: linear-gradient(rgba(11,37,69,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(11,37,69,.055) 1px, transparent 1px);
+      background-size: 28px 28px;
+    }
+
+    .view { display: none; }
+    .view.active { display: block; animation: enter .48s ease both; }
+
+    @keyframes enter {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .formula-card {
+      border-left: 5px solid var(--aqua);
+      box-shadow: 0 12px 30px rgba(16,42,67,.08);
+    }
+
+    .rule-card {
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .rule-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 24px rgba(16,42,67,.10);
+    }
+
+    .answer-option {
+      border: 2px solid #d8e2e9;
+      transition: all .2s ease;
+    }
+    .answer-option:hover { border-color: #64ccc5; background: #f0fffe; }
+    .answer-option.selected { border-color: #176b87; background: #e4f8f6; }
+    .answer-option.correct { border-color: #218c74; background: #e9f9f0; }
+    .answer-option.incorrect { border-color: #d75a4a; background: #fff1ee; }
+    .answer-option:focus-within { outline: 3px solid rgba(23,107,135,.3); outline-offset: 2px; }
+
+    .choice-radio { accent-color: #176b87; }
+    .progress-fill { transition: width .35s ease; }
+    .hidden-accessible { display: none; }
+    .status-show { display: block; }
+
+    button:focus-visible, input:focus-visible {
+      outline: 3px solid #ffd166;
+      outline-offset: 3px;
+    }
+
+    @media (max-width: 640px) {
+      .hero-title { font-size: 2.7rem !important; }
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="/_sdk/6c2ecc939521f244.data_sdk.js" type="text/javascript" integrity="sha512-gRx8s+XsZDN6mSIQu2sivLZysbV0WHhb5kXNUWlgVb5lCMU1foJYukyMEDPv8Tnoocb8iwqB4XdRrWc7oEGzIQ=="></script>
+  <script src="/_sdk/9a95f4c89f9d329a.editing_sdk.js" type="text/javascript" integrity="sha512-uqCEJTMLGkNaerhDaIXaCaksHwhGfiODxp6KAGyGJ3KnMlKU0zBHiRrGR0sESZuM3JlrF8iM9IVZakKW237LEQ=="></script>
+  <script src="/_sdk/ab4336f91e694f96.resizing_sdk.js" type="text/javascript" integrity="sha512-cxmeUrBrNlwwLr+tEu/iwM5F3boeK4qDMoH3QjUPqJptkO5NkaDVhQvyIHIn+3EflI5/uubWzkSA78B1tCswgA=="></script>
+ </head>
+ <body data-template-id="__page-root">
+  <div class="app-shell grid-lines">
+   <header class="w-full px-5 pt-6 sm:px-8">
+    <div class="mx-auto flex max-w-6xl items-center justify-between">
+     <div class="flex items-center gap-3">
+      <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#0b2545] text-[#ffd166]" aria-hidden="true"><i data-lucide="sigma" class="h-6 w-6"></i>
+      </div>
+      <div>
+       <p data-template-id="brand-label" class="canva-text text-xs font-bold uppercase tracking-[0.18em] text-[#176b87]"></p>
+       <p data-template-id="brand-subtitle" class="canva-text text-sm font-medium text-[#0b2545]"></p>
+      </div>
+     </div>
+     <div class="hidden rounded-full border border-[#b9d9d6] bg-white/70 px-4 py-2 text-sm font-semibold text-[#176b87] sm:block"><span id="student-pill">Belajar mandiri</span>
+     </div>
+    </div>
+   </header>
+   <main class="w-full px-5 pb-10 pt-8 sm:px-8 sm:pt-12">
+    <section id="intro-view" class="view active mx-auto max-w-5xl" aria-labelledby="welcome-title">
+     <div class="grid overflow-hidden rounded-[2rem] bg-[#0b2545] shadow-2xl shadow-[#0b2545]/20 md:grid-cols-[1.15fr_.85fr]">
+      <div class="p-8 sm:p-12">
+       <div data-template-id="intro-tag" class="canva-tag mb-6 inline-flex rounded-full bg-[#64ccc5] px-4 py-2 text-sm font-bold text-[#0b2545]"></div>
+       <h1 id="welcome-title" data-template-id="intro-title" class="canva-text hero-title math-font max-w-xl text-5xl font-bold leading-[1.05] text-[#f7f4ed] sm:text-6xl"></h1>
+       <p data-template-id="intro-description" class="canva-text mt-6 max-w-lg text-lg leading-relaxed text-[#d8e9e7]"></p>
+       <form id="identity-form" class="mt-9 max-w-md space-y-5 rounded-2xl bg-white p-6 text-[#102a43]" novalidate>
+        <div><label data-template-id="name-label" class="canva-text mb-2 block text-sm font-bold" for="nama"></label> <input id="nama" name="nama" type="text" autocomplete="name" required class="w-full rounded-xl border border-[#c8d5dc] bg-[#fbfdfd] px-4 py-3 text-base text-[#102a43] placeholder:text-[#718096]" placeholder="Contoh: Aulia Putri">
+        </div>
+        <div><label data-template-id="class-label" class="canva-text mb-2 block text-sm font-bold" for="kelas"></label> <input id="kelas" name="kelas" type="text" required class="w-full rounded-xl border border-[#c8d5dc] bg-[#fbfdfd] px-4 py-3 text-base text-[#102a43] placeholder:text-[#718096]" placeholder="Contoh: X IPA 1">
+        </div>
+        <p id="identity-error" class="hidden-accessible rounded-xl bg-[#fff1ee] px-3 py-2 text-sm font-medium text-[#a63d2d]" role="alert"></p><button data-template-id="start-button" type="submit" class="canva-button flex w-full items-center justify-center gap-2 rounded-xl bg-[#ef8354] px-5 py-3.5 font-bold text-white shadow-lg shadow-[#ef8354]/25 transition hover:-translate-y-0.5 hover:bg-[#d96d41]"> <span data-template-id="start-button-label" class="canva-text"></span><i data-lucide="arrow-right" class="h-5 w-5"></i> </button>
+       </form>
+      </div>
+      <aside class="relative flex min-h-[320px] items-center justify-center overflow-hidden bg-[#176b87] p-8" aria-label="Ilustrasi eksponensial">
+       <div class="absolute -right-16 -top-16 h-48 w-48 rounded-full border-[22px] border-[#64ccc5]/30"></div>
+       <div class="absolute -bottom-16 -left-14 h-52 w-52 rounded-full bg-[#ffd166]/20"></div>
+       <div class="relative rotate-[-4deg] rounded-[1.8rem] bg-[#f7f4ed] p-7 text-center shadow-2xl">
+        <p data-template-id="intro-card-label" class="canva-text text-sm font-bold uppercase tracking-[0.16em] text-[#176b87]"></p>
+        <p class="math-font mt-3 text-6xl font-bold text-[#0b2545]">2<sup class="text-3xl">5</sup></p>
+        <div class="my-4 h-px bg-[#c8d5dc]"></div>
+        <p data-template-id="intro-card-answer" class="canva-text text-lg font-bold text-[#ef8354]"></p>
+       </div>
+      </aside>
+     </div>
+    </section>
+    <section id="lesson-view" class="view mx-auto max-w-6xl" aria-labelledby="lesson-title">
+     <div class="mb-8 flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
+      <div>
+       <p data-template-id="lesson-eyebrow" class="canva-text text-sm font-bold uppercase tracking-[0.18em] text-[#176b87]"></p>
+       <h1 id="lesson-title" data-template-id="lesson-title-text" class="canva-text math-font mt-2 text-4xl font-bold text-[#0b2545] sm:text-5xl"></h1>
+      </div>
+      <div class="rounded-2xl bg-[#e2f5f2] px-5 py-3 text-sm font-semibold text-[#176b87]"><span id="lesson-student-name">Siswa</span>
+      </div>
+     </div>
+     <article data-template-id="definition-card" class="canva-card formula-card rounded-2xl bg-white p-7 sm:p-8">
+      <h2 data-template-id="definition-title" class="canva-text math-font text-2xl font-bold text-[#0b2545]"></h2>
+      <div class="mt-5 grid gap-5 md:grid-cols-[.8fr_1.2fr] md:items-center">
+       <p class="math-font text-center text-5xl font-bold text-[#176b87]">a<sup class="text-2xl">n</sup></p>
+       <p data-template-id="definition-text" class="canva-text text-lg leading-relaxed text-[#486581]"></p>
+      </div>
+     </article>
+     <h2 data-template-id="rules-heading" class="canva-text math-font mt-10 text-3xl font-bold text-[#0b2545]"></h2>
+     <div class="mt-5 grid gap-4 sm:grid-cols-2">
+      <article data-template-id="rule-one-card" class="canva-card rule-card rounded-2xl bg-[#e4f8f6] p-6">
+       <p data-template-id="rule-one-title" class="canva-text font-bold text-[#0b2545]"></p>
+       <p data-template-id="rule-one-formula" class="canva-text math-font mt-3 text-2xl font-bold text-[#176b87]"></p>
+      </article>
+      <article data-template-id="rule-two-card" class="canva-card rule-card rounded-2xl bg-[#fff5d6] p-6">
+       <p data-template-id="rule-two-title" class="canva-text font-bold text-[#0b2545]"></p>
+       <p data-template-id="rule-two-formula" class="canva-text math-font mt-3 text-2xl font-bold text-[#a56b00]"></p>
+      </article>
+      <article data-template-id="rule-three-card" class="canva-card rule-card rounded-2xl bg-[#fce9e3] p-6">
+       <p data-template-id="rule-three-title" class="canva-text font-bold text-[#0b2545]"></p>
+       <p data-template-id="rule-three-formula" class="canva-text math-font mt-3 text-2xl font-bold text-[#c55534]"></p>
+      </article>
+      <article data-template-id="rule-four-card" class="canva-card rule-card rounded-2xl bg-[#e8edf8] p-6">
+       <p data-template-id="rule-four-title" class="canva-text font-bold text-[#0b2545]"></p>
+       <p data-template-id="rule-four-formula" class="canva-text math-font mt-3 text-2xl font-bold text-[#37558d]"></p>
+      </article>
+     </div>
+     <article data-template-id="example-card" class="canva-card mt-7 rounded-2xl bg-[#0b2545] p-7 text-center">
+      <p data-template-id="example-label" class="canva-text text-sm font-bold uppercase tracking-[0.16em] text-[#64ccc5]"></p>
+      <p data-template-id="example-formula" class="canva-text math-font mt-3 text-3xl font-bold text-[#f7f4ed]"></p>
+      <p data-template-id="example-explanation" class="canva-text mt-3 text-[#d8e9e7]"></p>
+     </article>
+     <div class="mt-9 flex justify-end"><button id="to-quiz" data-template-id="quiz-start-button" type="button" class="canva-button flex items-center gap-2 rounded-xl bg-[#ef8354] px-6 py-3.5 font-bold text-white shadow-lg shadow-[#ef8354]/25 transition hover:-translate-y-0.5 hover:bg-[#d96d41]"> <span data-template-id="quiz-start-button-label" class="canva-text"></span><i data-lucide="pen-line" class="h-5 w-5"></i> </button>
+     </div>
+    </section>
+    <section id="quiz-view" class="view mx-auto max-w-3xl" aria-labelledby="quiz-title">
+     <div class="mb-7">
+      <div class="flex items-center justify-between">
+       <p data-template-id="quiz-eyebrow" class="canva-text text-sm font-bold uppercase tracking-[0.18em] text-[#176b87]"></p>
+       <p id="question-counter" class="text-sm font-bold text-[#486581]" aria-live="polite">Soal 1 dari 4</p>
+      </div>
+      <h1 id="quiz-title" data-template-id="quiz-title-text" class="canva-text math-font mt-2 text-4xl font-bold text-[#0b2545]"></h1>
+      <div class="mt-5 h-2 overflow-hidden rounded-full bg-[#d8e2e9]">
+       <div id="progress-bar" class="progress-fill h-full rounded-full bg-[#64ccc5]" style="width:25%"></div>
+      </div>
+     </div>
+     <div class="relative">
+      <article class="question-card rounded-[1.75rem] bg-white p-7 shadow-xl shadow-[#102a43]/10 sm:p-9" data-question="1" aria-labelledby="q1-title">
+       <p class="text-sm font-bold uppercase tracking-[0.16em] text-[#ef8354]">01 / 04</p>
+       <h2 id="q1-title" data-template-id="q1-text" class="canva-text math-font mt-3 text-2xl font-bold leading-snug text-[#0b2545]"></h2>
+       <div class="mt-7 space-y-3" role="radiogroup" aria-label="Pilihan jawaban soal 1"><label class="answer-option flex cursor-pointer items-center gap-4 rounded-xl p-4"> <input class="choice-radio h-5 w-5" type="radio" name="q1" value="a"> <span data-template-id="q1-option-a" class="canva-text text-base font-medium"></span> </label> <label class="answer-option flex cursor-pointer items-center gap-4 rounded-xl p-4"> <input class="choice-radio h-5 w-5" type="radio" name="q1" value="b"> <span data-template-id="q1-option-b" class="canva-text text-base font-medium"></span> </label> <label class="answer-option flex cursor-pointer items-center gap-4 rounded-xl p-4"> <input class="choice-radio h-5 w-5" type="radio" name="q1" value="c"> <span data-template-id="q1-option-c" class="canva-text text-base font-medium"></span> </label>
+       </div>
+       <p class="feedback mt-5 hidden-accessible rounded-xl px-4 py-3 text-sm font-semibold" aria-live="polite"></p>
+      </article>
+      <article class="question-card hidden-accessible rounded-[1.75rem] bg-white p-7 shadow-xl shadow-[#102a43]/10 sm:p-9" data-question="2" aria-labelledby="q2-title">
+       <p class="text-sm font-bold uppercase tracking-[0.16em] text-[#ef8354]">02 / 04</p>
+       <h2 id="q2-title" data-template-id="q2-text" class="canva-text math-font mt-3 text-2xl font-bold leading-snug text-[#0b2545]"></h2>
+       <div class="mt-7 space-y-3" role="radiogroup" aria-label="Pilihan jawaban soal 2"><label class="answer-option flex cursor-pointer items-center gap-4 rounded-xl p-4"><input class="choice-radio h-5 w-5" type="radio" name="q2" value="a"><span data-template-id="q2-option-a" class="canva-text text-base font-medium"></span></label> <label class="answer-option flex cursor-pointer items-center gap-4 rounded-xl p-4"><input class="choice-radio h-5 w-5" type="radio" name="q2" value="b"><span data-template-id="q2-option-b" class="canva-text text-base font-medium"></span></label> <label class="answer-option flex cursor-pointer items-center gap-4 rounded-xl p-4"><input class="choice-radio h-5 w-5" type="radio" name="q2" value="c"><span data-template-id="q2-option-c" class="canva-text text-base font-medium"></span></label>
+       </div>
+       <p class="feedback mt-5 hidden-accessible rounded-xl px-4 py-3 text-sm font-semibold" aria-live="polite"></p>
+      </article>
+      <article class="question-card hidden-accessible rounded-[1.75rem] bg-white p-7 shadow-xl shadow-[#102a43]/10 sm:p-9" data-question="3" aria-labelledby="q3-title">
+       <p class="text-sm font-bold uppercase tracking-[0.16em] text-[#ef8354]">03 / 04</p>
+       <h2 id="q3-title" data-template-id="q3-text" class="canva-text math-font mt-3 text-2xl font-bold leading-snug text-[#0b2545]"></h2>
+       <div class="mt-7 space-y-3" role="radiogroup" aria-label="Pilihan jawaban soal 3"><label class="answer-option flex cursor-pointer items-center gap-4 rounded-xl p-4"><input class="choice-radio h-5 w-5" type="radio" name="q3" value="a"><span data-template-id="q3-option-a" class="canva-text text-base font-medium"></span></label> <label class="answer-option flex cursor-pointer items-center gap-4 rounded-xl p-4"><input class="choice-radio h-5 w-5" type="radio" name="q3" value="b"><span data-template-id="q3-option-b" class="canva-text text-base font-medium"></span></label> <label class="answer-option flex cursor-pointer items-center gap-4 rounded-xl p-4"><input class="choice-radio h-5 w-5" type="radio" name="q3" value="c"><span data-template-id="q3-option-c" class="canva-text text-base font-medium"></span></label>
+       </div>
+       <p class="feedback mt-5 hidden-accessible rounded-xl px-4 py-3 text-sm font-semibold" aria-live="polite"></p>
+      </article>
+      <article class="question-card hidden-accessible rounded-[1.75rem] bg-white p-7 shadow-xl shadow-[#102a43]/10 sm:p-9" data-question="4" aria-labelledby="q4-title">
+       <p class="text-sm font-bold uppercase tracking-[0.16em] text-[#ef8354]">04 / 04</p>
+       <h2 id="q4-title" data-template-id="q4-text" class="canva-text math-font mt-3 text-2xl font-bold leading-snug text-[#0b2545]"></h2>
+       <div class="mt-7 space-y-3" role="radiogroup" aria-label="Pilihan jawaban soal 4"><label class="answer-option flex cursor-pointer items-center gap-4 rounded-xl p-4"><input class="choice-radio h-5 w-5" type="radio" name="q4" value="a"><span data-template-id="q4-option-a" class="canva-text text-base font-medium"></span></label> <label class="answer-option flex cursor-pointer items-center gap-4 rounded-xl p-4"><input class="choice-radio h-5 w-5" type="radio" name="q4" value="b"><span data-template-id="q4-option-b" class="canva-text text-base font-medium"></span></label> <label class="answer-option flex cursor-pointer items-center gap-4 rounded-xl p-4"><input class="choice-radio h-5 w-5" type="radio" name="q4" value="c"><span data-template-id="q4-option-c" class="canva-text text-base font-medium"></span></label>
+       </div>
+       <p class="feedback mt-5 hidden-accessible rounded-xl px-4 py-3 text-sm font-semibold" aria-live="polite"></p>
+      </article>
+     </div>
+     <div class="mt-7 flex justify-end"><button id="next-question" data-template-id="next-button" type="button" disabled class="canva-button flex items-center gap-2 rounded-xl bg-[#176b87] px-6 py-3.5 font-bold text-white opacity-50 transition enabled:hover:-translate-y-0.5 enabled:hover:bg-[#0f546c] disabled:cursor-not-allowed"> <span data-template-id="next-button-label" class="canva-text"></span><i data-lucide="arrow-right" class="h-5 w-5"></i> </button>
+     </div>
+    </section>
+    <section id="result-view" class="view mx-auto max-w-3xl" aria-labelledby="result-title">
+     <div data-template-id="result-card" class="canva-card overflow-hidden rounded-[2rem] bg-white text-center shadow-2xl shadow-[#102a43]/10">
+      <div class="bg-[#0b2545] px-7 py-10">
+       <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#ffd166] text-[#0b2545]" aria-hidden="true"><i data-lucide="award" class="h-8 w-8"></i>
+       </div>
+       <h1 id="result-title" data-template-id="result-title-text" class="canva-text math-font mt-5 text-4xl font-bold text-[#f7f4ed]"></h1>
+       <p data-template-id="result-subtitle" class="canva-text mt-3 text-[#d8e9e7]"></p>
+      </div>
+      <div class="p-8 sm:p-10">
+       <div class="mx-auto grid max-w-md grid-cols-2 gap-4">
+        <div class="rounded-2xl bg-[#e4f8f6] p-5">
+         <p data-template-id="score-label" class="canva-text text-sm font-bold text-[#176b87]"></p>
+         <p id="final-score" class="math-font mt-1 text-4xl font-bold text-[#0b2545]" aria-live="polite">0</p>
+        </div>
+        <div class="rounded-2xl bg-[#fff5d6] p-5">
+         <p data-template-id="correct-label" class="canva-text text-sm font-bold text-[#a56b00]"></p>
+         <p id="final-correct" class="math-font mt-1 text-4xl font-bold text-[#0b2545]" aria-live="polite">0/4</p>
+        </div>
+       </div>
+       <p id="save-status" class="mt-7 rounded-xl bg-[#edf7f6] px-4 py-3 text-sm font-semibold text-[#176b87]" role="status"></p><button id="restart-button" data-template-id="restart-button-text" type="button" class="canva-button mt-7 inline-flex items-center gap-2 rounded-xl bg-[#ef8354] px-6 py-3.5 font-bold text-white shadow-lg shadow-[#ef8354]/25 transition hover:-translate-y-0.5 hover:bg-[#d96d41]"> <span data-template-id="restart-button-label" class="canva-text"></span><i data-lucide="rotate-ccw" class="h-5 w-5"></i> </button>
+      </div>
+     </div>
+    </section>
+   </main>
+   <footer class="w-full px-5 pb-7 text-center sm:px-8">
+    <p data-template-id="copyright-text" class="canva-text mt-2 text-xs text-[#627d98]"></p>
+   </footer>
+  </div>
+  <script>
+    const answers = ["b", "a", "c", "b"];
+    const feedbacks = [
+      "Tepat! 2⁴ = 2 × 2 × 2 × 2 = 16.",
+      "Benar! Saat basis sama dikalikan, pangkatnya dijumlahkan.",
+      "Hebat! Pangkat negatif berarti kebalikan dari bentuk pangkat positif.",
+      "Benar! Bilangan berpangkat nol bernilai 1, selama basisnya bukan 0."
+    ];
+
+    let student = { nama: "", kelas: "" };
+    let currentQuestion = 0;
+    let correctAnswers = 0;
+    let selectedAnswers = [];
+    let isSaving = false;
+
+    const views = {
+      intro: document.getElementById("intro-view"),
+      lesson: document.getElementById("lesson-view"),
+      quiz: document.getElementById("quiz-view"),
+      result: document.getElementById("result-view")
+    };
+
+    function showView(name) {
+      Object.values(views).forEach(view => view.classList.remove("active"));
+      views[name].classList.add("active");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function setQuestion(index) {
+      currentQuestion = index;
+      document.querySelectorAll(".question-card").forEach((card, cardIndex) => {
+        card.classList.toggle("hidden-accessible", cardIndex !== index);
+      });
+      document.getElementById("question-counter").textContent = `Soal ${index + 1} dari 4`;
+      document.getElementById("progress-bar").style.width = `${(index + 1) * 25}%`;
+
+      const button = document.getElementById("next-question");
+      button.disabled = !selectedAnswers[index];
+      button.querySelector("span").textContent = index === 3 ? "Lihat hasil" : "Soal berikutnya";
+    }
+
+    function handleChoice(event) {
+      const input = event.target;
+      if (!input.matches('input[type="radio"]')) return;
+
+      const card = input.closest(".question-card");
+      const questionIndex = Number(card.dataset.question) - 1;
+      selectedAnswers[questionIndex] = input.value;
+
+      card.querySelectorAll(".answer-option").forEach(option => option.classList.remove("selected", "correct", "incorrect"));
+      input.closest(".answer-option").classList.add("selected");
+
+      const isCorrect = input.value === answers[questionIndex];
+      card.querySelectorAll(".answer-option").forEach(option => {
+        const optionInput = option.querySelector("input");
+        if (optionInput.value === answers[questionIndex]) option.classList.add("correct");
+        if (optionInput.checked && !isCorrect) option.classList.add("incorrect");
+      });
+
+      const feedback = card.querySelector(".feedback");
+      feedback.textContent = isCorrect ? feedbacks[questionIndex] : `Belum tepat. ${feedbacks[questionIndex]}`;
+      feedback.className = `feedback mt-5 rounded-xl px-4 py-3 text-sm font-semibold ${isCorrect ? "bg-[#e9f9f0] text-[#187357]" : "bg-[#fff1ee] text-[#a63d2d]"}`;
+
+      document.getElementById("next-question").disabled = false;
+    }
+
+    async function saveResult() {
+      const status = document.getElementById("save-status");
+      if (!window.dataSdk) {
+        status.textContent = "Hasil belum dapat disimpan. Silakan coba ulangi beberapa saat lagi.";
+        status.className = "mt-7 rounded-xl bg-[#fff1ee] px-4 py-3 text-sm font-semibold text-[#a63d2d]";
+        return;
+      }
+
+      isSaving = true;
+      status.textContent = "Menyimpan hasil ke Canva Sheet...";
+      status.className = "mt-7 rounded-xl bg-[#edf7f6] px-4 py-3 text-sm font-semibold text-[#176b87]";
+
+      const saveResult = await window.dataSdk.create({
+        nama: student.nama,
+        kelas: student.kelas,
+        skor: Math.round((correctAnswers / 4) * 100),
+        jawaban_benar: correctAnswers,
+        jumlah_soal: 4,
+        waktu_selesai: new Date().toISOString()
+      });
+
+      if (saveResult.isOk) {
+        status.textContent = "Hasilmu sudah tersimpan di Canva Sheet.";
+        status.className = "mt-7 rounded-xl bg-[#e9f9f0] px-4 py-3 text-sm font-semibold text-[#187357]";
+      } else {
+        status.textContent = "Hasil belum tersimpan. Periksa koneksi lalu coba ulangi pembelajaran.";
+        status.className = "mt-7 rounded-xl bg-[#fff1ee] px-4 py-3 text-sm font-semibold text-[#a63d2d]";
+      }
+      isSaving = false;
+    }
+
+    async function finishQuiz() {
+      correctAnswers = selectedAnswers.reduce((total, choice, index) => total + (choice === answers[index] ? 1 : 0), 0);
+      const score = Math.round((correctAnswers / 4) * 100);
+
+      document.getElementById("final-score").textContent = score;
+      document.getElementById("final-correct").textContent = `${correctAnswers}/4`;
+      showView("result");
+      await saveResult();
+    }
+
+    function resetQuiz() {
+      currentQuestion = 0;
+      correctAnswers = 0;
+      selectedAnswers = [];
+
+      document.querySelectorAll('input[type="radio"]').forEach(input => { input.checked = false; });
+      document.querySelectorAll(".answer-option").forEach(option => option.classList.remove("selected", "correct", "incorrect"));
+      document.querySelectorAll(".feedback").forEach(feedback => {
+        feedback.textContent = "";
+        feedback.className = "feedback mt-5 hidden-accessible rounded-xl px-4 py-3 text-sm font-semibold";
+      });
+
+      setQuestion(0);
+    }
+
+    document.getElementById("identity-form").addEventListener("submit", event => {
+      event.preventDefault();
+      const nameInput = document.getElementById("nama");
+      const classInput = document.getElementById("kelas");
+      const error = document.getElementById("identity-error");
+
+      if (!nameInput.value.trim() || !classInput.value.trim()) {
+        error.textContent = "Lengkapi nama dan kelas terlebih dahulu.";
+        error.classList.remove("hidden-accessible");
+        return;
+      }
+
+      error.classList.add("hidden-accessible");
+      student = { nama: nameInput.value.trim(), kelas: classInput.value.trim() };
+      document.getElementById("student-pill").textContent = `${student.nama} · ${student.kelas}`;
+      document.getElementById("lesson-student-name").textContent = `${student.nama} · ${student.kelas}`;
+      showView("lesson");
+    });
+
+    document.getElementById("to-quiz").addEventListener("click", () => {
+      resetQuiz();
+      showView("quiz");
+    });
+
+    document.querySelectorAll(".question-card").forEach(card => card.addEventListener("change", handleChoice));
+
+    document.getElementById("next-question").addEventListener("click", () => {
+      if (!selectedAnswers[currentQuestion]) return;
+      if (currentQuestion === 3) {
+        finishQuiz();
+      } else {
+        setQuestion(currentQuestion + 1);
+      }
+    });
+
+    document.getElementById("restart-button").addEventListener("click", () => {
+      if (isSaving) return;
+      document.getElementById("identity-form").reset();
+      document.getElementById("student-pill").textContent = "Belajar mandiri";
+      showView("intro");
+    });
+
+    async function initializeSheet() {
+      if (!window.dataSdk) return;
+      const handler = { onDataChanged() {} };
+      await window.dataSdk.init(handler);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      lucide.createIcons();
+      initializeSheet();
+    });
+  </script>
+ </body>
+</html>
